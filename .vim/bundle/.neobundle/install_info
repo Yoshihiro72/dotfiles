@@ -1,0 +1,2 @@
+3.0
+{'neobundle.vim': {'checked_time': 1503292225, 'installed_uri': 'https://github.com/Shougo/neobundle.vim.git', 'installed_path': '/home/vagrant/.vim/bundle/neobundle.vim', 'revisions': {}, 'updated_time': '1503106095'}, 'emmet-vim': {'checked_time': 1503292225, 'installed_uri': 'https://github.com/mattn/emmet-vim.git', 'installed_path': '/home/vagrant/.vim/bundle/emmet-vim', 'revisions': {'1503280641': 'ed79a9264d66def73c1ccc10198a58ebe1531ba4'}, 'updated_time': '1503280641'}}

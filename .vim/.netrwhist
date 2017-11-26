@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/vagrant/sync/new_lp'
+let g:netrw_dirhist_2='/home/vagrant/sync/nar_stamp_rally'
+let g:netrw_dirhist_3='/home/vagrant/.vim'
