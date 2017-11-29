@@ -100,6 +100,8 @@ augroup fileTypeIndent
     autocmd BufNewFile,BufRead *.py setlocal tabstop=4 softtabstop=4 shiftwidth=4
     autocmd BufNewFile,BufRead *.rb setlocal tabstop=2 softtabstop=2 shiftwidth=2
     autocmd BufNewFile,BufRead *.html setlocal tabstop=2 softtabstop=2 shiftwidth=2
+
+    autocmd BufNewFile,BufRead *.js setlocal tabstop=2 softtabstop=2 shiftwidth=2
 augroup END
 
 " jjでesc
@@ -120,3 +122,11 @@ NeoBundle 'mattn/emmet-vim'
 call neobundle#end()
 
 filetype plugin indent on
+
+inoremap { {}<Left>
+inoremap {<Enter> {}<Left><CR><ESC><S-o>
+inoremap ( ()<ESC>i
+inoremap (<Enter> ()<Left><CR><ESC><S-o>
+inoremap " ""<Left>
+inoremap [ []<Left>
+inoremap <silent> jk <Right><Right>
