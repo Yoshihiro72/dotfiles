@@ -93,6 +93,9 @@ set ruler
 set cindent
 " バックスペース不具合対処
 set backspace=indent,eol,start
+" クリップボードへのコピー"
+set clipboard+=unnamed
+set clipboard+=autoselect
 
 " 言語別の設定
 augroup fileTypeIndent
